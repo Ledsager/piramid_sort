@@ -12,7 +12,6 @@ def createHeap(data, length, index):
             
 def heapSort(data):
         length = len(data)
-        # We build max heap
         for index in range(length, -1, -1):
             createHeap(data, length, index)
         for index in range(length - 1, 0, -1):            
